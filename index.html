@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Flex</title>
+    <!-- favicon -->
+
+    <link rel="icon" type="image/icon" href="IMAGES/f1.jpg" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/e75141558d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <h1>LOGO</h1>
+      </div>
+      <div class="menu-main">
+        <div class="menu">
+          <a href="">HOME</a>
+          <a href="">ABOUT</a>
+          <a href="">MENU</a>
+          <a href="">CONTACT</a>
+        </div>
+      </div>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <div class="row1">
+      <div class="container">
+        <h1>START YOUR DAY</h1>
+        <img class="cup" src="./assets/3.png" width="250px" height="250px" />
+        <div class="R1">
+          <h1>WITH OUR COFFEE</h1>
+          <button class="button">Shop Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="row2">
+      <div class="container">
+        <div class="M">
+          <div class="R">
+            <h1>PERFECT PLACE TO ENJOY YOUR COFFEE</h1>
+            <div class="P">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <button class="B">Shop Now</button>
+            </div>
+          </div>
+          <div class="I">
+            <img src="./assets/2.png" width="250px" height="250px" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row3">
+      <div class="container">
+        <h2 class="products">PRODUCTS</h2>
+        <div class="S">
+          <div class="A">
+            <h4>Mocha</h4>
+            <p>Espresso</p>
+            <p>Choclate</p>
+            <p>steamed Milk</p>
+            <div class="j"><button class="btn">Learn More</button></div>
+          </div>
+
+          <div class="A">
+            <h4>Mocha</h4>
+            <p>Espresso</p>
+            <p>Choclate</p>
+            <p>steamed Milk</p>
+            <div class="j"><button class="btn">Learn More</button></div>
+          </div>
+          <div class="A">
+            <h4>Mocha</h4>
+            <p>Espresso</p>
+            <p>Choclate</p>
+            <p>steamed Milk</p>
+            <div class="j"><button class="btn">Learn More</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row4">
+      <div class="container">
+        <div class="HR"><hr /></div>
+        <div class="SS">
+          <div class="c">
+            <h4>About <span>Us</span></h4>
+            <p>Sit amet consectetur adipisicing elit. Dolor</p>
+            <p>doloremque reiciendis ea voluptatibus.</p>
+          </div>
+          <div class="c">
+            <h4>Contact <span>Us</span></h4>
+            <p>Sit amet consectetur adipisicing elit. Dolor</p>
+            <p>doloremque reiciendis ea voluptatibus.</p>
+          </div>
+          <div class="c">
+            <h4>Opening <span>Hours</span></h4>
+            <p>Sit amet consectetur adipisicing elit. Dolor</p>
+            <p>doloremque reiciendis ea voluptatibus.</p>
+          </div>
+        </div>
+        <div class="HR">
+          <hr />
+          <!-- <footer>
+        Copyright @ 2022 HuXn WebDev | Provided by <span> HuXn WebDev</span>
+     </footer>-->
+        </div>
+      </div>
+    </div>
+    <script>
+function navSlide(){
+    const nav= document.querySelector(".nav");
+    const menu= document.querySelector(".menu");
+    const burger=document.querySelector(".burger");
+
+    burger.addEventListener("click",()=>{
+        menu.classList.toggle("nav-active");
+        burger.classList.toggle("toggle")
+
+    })
+
+
+}
+navSlide();
+
+    </script>
+  </body>
+</html>
